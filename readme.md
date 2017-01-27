@@ -11,5 +11,8 @@ Use 2 controllers with dependencies (with bootstrap)
   * tutorial_spec.js : contains several example for Jasmine beginners
   * app_spec.js : Mock/Inject controllers and boostrap modal
   
-
+Usage 
+- To display the NG app : mvn clean install && mvn tomcat7:run then go to [http://localhost:8080/jasmine-mvn-sample/](http://localhost:8080/jasmine-mvn-sample/)
+- To execute Jasmine tests using Phantom : mvn jasmine:test
+- To execute Jasmine tests and see the results in a pretty way : mvn jasmine:bdd then go to [http://localhost:8234](http://localhost:8234)
 
