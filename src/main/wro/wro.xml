@@ -1,0 +1,15 @@
+<groups xmlns="http://www.isdc.ro/wro">
+  <group name="jasmine-mvn-sample">
+    <!-- Angular -->
+    <js>webjar:angularjs/${angularjs.version}/angular.js</js>
+    <!-- Bootstrap -->
+    <js>webjar:angular-ui-bootstrap/${angular-bootstrap.version}/ui-bootstrap.js</js>
+    <js>webjar:angular-ui-bootstrap/${angular-bootstrap.version}/ui-bootstrap-tpls.js</js>
+
+    <!-- All project js -->
+    <js>file:${project.basedir}/src/main/resources/**.js</js>
+  </group>
+  <group name="styles">
+    <css>file:${prepared-less.directory}/app.less</css>
+  </group>
+</groups>
