@@ -31,9 +31,9 @@ describe('Testing and Mock with Jasmine', function ()
       });
     }));
 
-    it('read properties', function ()
+    it('read property', function ()
     {
-      console.log(scope);
+      expect(controller.aProperty).toBe('value');
     });
   });
 });
